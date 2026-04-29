@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import axios from "axios";
-const baseUrl = "http://localhost:5000/tasks";
+const baseUrl = "https://mini-kanban-task.onrender.com/tasks";
 const Task = ({ tasks, setTasks, fetchTasks, setError }) => {
     const [input, setInput] = useState("");
     const [loading, setLoading] = useState(false);

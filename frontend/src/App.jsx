@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Task from "./components/Task";
-const baseUrl = "http://localhost:5000/tasks";
+const baseUrl = "https://mini-kanban-task.onrender.com/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);
